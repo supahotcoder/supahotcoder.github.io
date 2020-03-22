@@ -1,0 +1,161 @@
+/* global settings */
+body{
+  background-image: url('../pics/IMG_3488.jpg');
+  background-size: cover;
+}
+
+hr{
+  border-color: #D3D3D3;
+  width: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  font-size: 1.05em;
+}
+
+.image {
+  width: 30%;
+  margin-top: 15px;
+  width: 150px;
+  height: 150px;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.no-line{
+  border: none;
+}
+
+.explain {
+  opacity: 40%;
+}
+
+ .box-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.white {
+  color: #fff;
+}
+
+/* shared settings sections  (colors, sizing)*/
+
+.about, .card, .contact{
+  background: #f0f8ff;
+}
+
+.experience , .skills{
+  background: #36454f;
+}
+
+footer, .divider, .skills .progress .progress-bar-primary{
+  background: #f9cb8d; /*#4997d0;*/
+}
+
+.about, .skills,
+.contact, .experience {
+  padding: 30px;
+  min-height: 330px;
+  max-height: 330px;
+  margin-bottom: 30px;
+}
+
+
+/* portfolio card */
+.card {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.icon-size {
+  font-size: 20px;
+}
+
+.divider {
+  padding: 8px;
+  margin-bottom: 15px
+}
+
+/* skills section */
+.skills {
+  color: #f2f2f2;
+}
+.skills .progress {
+  border-radius: 0px;
+  height: 5px;
+}
+
+.skills strong {
+  display: inline-block;
+  font-weight: normal;
+  padding-bottom: 6px;
+}
+
+/* experience section */
+.experience {
+  color: white;
+}
+.experience .experience-content {
+  padding-bottom: 14px;
+}
+.experience h5 {
+  display: inline-block;
+}
+.experience span {
+  padding-right: 10px;
+  padding-left: 20px;
+}
+
+/* contact section */
+.contact .fa {
+  padding-right: 6px;
+}
+
+/* footer section */
+footer {
+  color: black;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+@media (max-width: 991px) {
+  .card{
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 645px) {
+  .card{
+    margin-left: 15px;
+    margin-right: 15px
+  }
+}
+
+@media ( max-width: 360px ) {
+  header h1 {
+    font-size: 30px;
+  }
+  .about h2 {
+    font-size: 24px;
+  }
+  .experience h4 {
+    font-size: 20px;
+  }
+}
