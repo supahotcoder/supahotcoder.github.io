@@ -143,6 +143,11 @@ footer, .divider, .skills .progress .progress-bar-primary{
   padding-right: 6px;
 }
 
+.contact h5{
+  text-decoration: underline;
+  -webkit-text-decoration-line: underline;
+}
+
 /* footer section */
 footer {
   color: black;
@@ -154,6 +159,11 @@ footer {
 @media (max-width: 991px) {
   .card{
     margin-bottom: 30px;
+  }
+
+  .contact{
+    text-align: center;
+    text-align: -webkit-center;
   }
 }
 
@@ -174,16 +184,6 @@ footer {
   h2{
     font-size: 27px;
     text-align: center;
-  }
-
-  .contact{
-    text-align: center;
-    text-align: -webkit-center;
-  }
-
-  .contact h5{
-    text-decoration: underline;
-    -webkit-text-decoration-line: underline;
   }
 }
 
