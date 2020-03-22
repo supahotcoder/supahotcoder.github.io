@@ -46,6 +46,9 @@ filter: alpha(opacity=40);
 /* Safari 1.x */
 -khtml-opacity: 0.4;
 
+/* webkit browsers */
+-webkit-opacity: 0.4;
+
 /* Others */
 opacity: 0.4;
 }
@@ -155,6 +158,10 @@ footer {
 }
 
 @media (max-width: 645px) {
+  body{
+    -webkit-text-size-adjust: 100%;
+  }
+
   .card{
     margin-left: 15px;
     margin-right: 15px
@@ -171,10 +178,12 @@ footer {
 
   .contact{
     text-align: center;
+    text-align: -webkit-center;
   }
 
   .contact h5{
     text-decoration: underline;
+    -webkit-text-decoration-line: underline;
   }
 }
 
