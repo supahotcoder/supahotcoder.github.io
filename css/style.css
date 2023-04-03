@@ -75,14 +75,19 @@ footer, .divider, .skills .progress .progress-bar-primary{
   background: #f9cb8d; /*#4997d0;*/
 }
 
-.about, .skills,
-.contact, .experience {
+.about, .skills{
   padding: 30px;
-  min-height: 330px;
-  max-height: 330px;
+  min-height: 380px;
+  max-height: 380px;
   margin-bottom: 30px;
 }
 
+.contact, .experience {
+  padding: 30px;
+  min-height: 460px;
+  max-height: 460px;
+  margin-bottom: 30px;
+}
 
 /* portfolio card */
 .card {
@@ -146,6 +151,7 @@ footer, .divider, .skills .progress .progress-bar-primary{
 .contact h5{
   text-decoration: underline;
   -webkit-text-decoration-line: underline;
+  padding: 10px 0;
 }
 
 /* footer section */
@@ -174,7 +180,7 @@ footer {
 
   .card{
     margin-left: 15px;
-    margin-right: 15px
+    margin-right: 15px;
   }
 
   .about, .skills, .contact, .experience {
@@ -185,6 +191,26 @@ footer {
     font-size: 27px;
     text-align: center;
   }
+}
+
+span.begone {
+  display: none;
+}
+
+@media ( max-width: 465px ) {
+  .progress{
+    visibility: hidden;
+  }
+
+  .explain-text{
+    opacity: 0.4;
+  }
+
+  .pull-right{
+    display: grid;
+    float: initial!important; -- had to be done
+  }
+
 }
 
 @media ( max-width: 360px ) {
